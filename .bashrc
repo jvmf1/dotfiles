@@ -2,6 +2,7 @@
 [[ $- != *i* ]] && return
 
 export LC_ALL=C
+alias clr='clear'
 alias ls='ls -p'
 alias la='ls -ap'
 alias ll='ls -alhp'
