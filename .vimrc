@@ -26,3 +26,5 @@ syntax on
 set autoindent
 set number relativenumber
 set nu rnu
+nnoremap j k
+nnoremap k j
