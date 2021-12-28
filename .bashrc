@@ -6,6 +6,6 @@ alias clr='clear'
 alias ls='ls -p'
 alias la='ls -ap'
 alias ll='ls -alhp'
-export PS1="\[\e[32m\e[1m\]\u\[\e[0m\]@\[\e[36m\e[1m\]\h\[\e[0m\] \w $ "
+export PS1="\[\e[32m\]\u\[\e[m\]@\[\e[36m\]\h\[\e[m\] \w $ "
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
 export EDITOR=vim
