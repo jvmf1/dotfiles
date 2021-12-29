@@ -5,7 +5,6 @@ set nowritebackup
 set autoread
 set autowrite
 set hidden
-set paste
 
 syntax on
 filetype indent plugin on
