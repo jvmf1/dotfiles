@@ -2,6 +2,7 @@
 [[ $- != *i* ]] && return
 
 export LC_ALL=C
+alias MAKEFLAGS='-j3' # -j<ncpu + 1>
 alias clr='clear'
 alias ls='ls -p'
 alias la='ls -ap'
