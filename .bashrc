@@ -7,7 +7,7 @@ alias clr='clear'
 alias ls='ls -p'
 alias la='ls -ap'
 alias ll='ls -alhp'
-alias ld='ls -alhpd */'
+alias lsd='ls -alhpd */'
 if [ "$UID"  = "0" ]; then
 	export PS1="\[\e[31m\e[1m\]\u\[\e[0m\]@\[\e[36m\e[1m\]\h\[\e[0m\] \w $ "
 else
